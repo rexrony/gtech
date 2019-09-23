@@ -388,7 +388,10 @@ Responsive
         &-form .cnt-btn{margin-left: auto; margin-right: auto;    display: block;}
     }
     .contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="tel"]{width: 100%;}
-    .contact-form .cnt-btn{margin: 5px auto 10px; display: block;}
+    .contact-form .cnt-btn{margin: 5px auto 10px; display: block;    float: none !important;}
+    .fold2-contact{    padding: 40px 0;}
+    .fold2-career .selection select{ width: 100%;}
+    .fold1-inner section h2{    font-size: 2.8rem;}
 }
 @media (min-width:100px) and (max-width:490px){
     header{
@@ -425,6 +428,7 @@ Responsive
       .fold7-left .headingwrap{    margin: 50px 0 20px 0px;}
     .contact{    margin-left: 0px;}
     .site-footer{text-align: center;}
+    .our_stats_box section h6{    font-size: 40px;}
     
 }
 @media (min-width:1024px) and (max-width:1390px){
