@@ -372,12 +372,15 @@ Responsive
     .fold3-boxes{text-align: center;}
     .btnwrap{margin: 26px auto 0;}
     .carsoual-btns{margin: 19px auto;
-        & ul{top: 0%;width: 113px;
-
-margin: 0px auto;
+        & ul{top: 0%;width: 113px;margin: 0px auto;
             
         }
     }
+    .contact{
+        & input{width: 100%;}
+        & textarea{width: 100%;}
+    }
+    .site-footer .footer-menu ul li{display: block;}
 }
 @media (min-width:100px) and (max-width:490px){
     header{
