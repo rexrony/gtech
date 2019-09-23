@@ -302,7 +302,7 @@ Footer
     & input{margin-bottom: 25px !important;}
 }
 /***********Menu**********/
-.button_container { position: fixed; top: 7%; right: 2.5%; height: 27px; width: 35px; cursor: pointer; z-index: 100; -webkit-transition: opacity .25s ease; transition: opacity .25s ease; display: none; }
+.button_container { position: fixed; top: 4%; right: 2.5%; height: 27px; width: 35px; cursor: pointer; z-index: 100; -webkit-transition: opacity .25s ease; transition: opacity .25s ease; display: none; }
 
 .button_container:hover { opacity: .7; }
 
@@ -362,18 +362,38 @@ Footer
 Responsive
 **/
 @media (min-width: 100px) and (max-width: 990px) { .button_container { display: block; }
-  .navbar { display: none; } }
+  .navbar { display: none; } 
+.fold1-inner section{padding: 0 15px;}
+  .fold1 .slides-container .slide-con .slides .slide-caption{    top: 130px;width: 100%; text-align: center;position: relative;
+      & a{margin: 26px auto 0;}
+        & h1{    font-size: 1.4rem;}
+    }
+    .our_products img{max-width: 100%;}
+    .fold3-boxes{text-align: center;}
+    .btnwrap{margin: 26px auto 0;}
+    .carsoual-btns{margin: 19px auto;
+        & ul{top: 0%;width: 113px;
+
+margin: 0px auto;
+            
+        }
+    }
+}
 @media (min-width:100px) and (max-width:490px){
     header{
         .head-left{
             & img{margin: auto; display: block;}
         }
     }
+    .fold1-inner{min-height: 350px;
+        & section{top: 80px;text-align: center;}
+    }
     .fold1 .slides-container .slide-con .slides .slide-caption{    top: 130px;
         & h1{    font-size: 1.4rem;}
     }
     .fold1 .slides-container, .fold1 .slides-container .slide-con, .fold1 .slides-container .slide-con .slides{min-height: 350px;}
-    .headingwrap h2{    font-size: 2.5rem;}
+    .fold1 .slides-container .slide-con .slides .slider-text-con{min-height: 350px;}
+    .headingwrap h2{    font-size: 2.4rem;}
     .fold7-left .headingwrap{    margin: 50px 0 20px 0px;}
     .contact{    margin-left: 0px;}
     .site-footer{text-align: center;}
@@ -385,13 +405,15 @@ Responsive
             & img{margin: auto; display: block;}
         }
     }
-    .fold1 .slides-container .slide-con .slides .slide-caption{    top: 130px;
+    .fold1 .slides-container .slide-con .slides .slide-caption{    top: 130px;width: 100%; text-align: center;
         & h1{    font-size: 1.4rem;}
     }
    .fold1 .slides-container, .fold1 .slides-container .slide-con, .fold1 .slides-container .slide-con .slides{min-height: 350px;}
+    .fold1 .slides-container .slide-con .slides .slider-text-con{min-height: 450px;}
     .headingwrap h2{    font-size: 2.5rem;}
     .fold7-left .headingwrap{    margin: 50px 0 20px 0px;}
     .contact{    margin-left: 0px;}
+    
 }
 @media (min-width:1024px) and (max-width:1390px){
 }
