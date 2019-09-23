@@ -371,16 +371,22 @@ Responsive
     .our_products img{max-width: 100%;}
     .fold3-boxes{text-align: center;}
     .btnwrap{margin: 26px auto 0;}
-    .carsoual-btns{margin: 19px auto;
-        & ul{top: 0%;width: 113px;margin: 0px auto;
+    .fold4{
+          .carsoual-btns{margin: 19px auto;
+        & ul{top: 0%;width: 113px;margin: 0px auto;    width: 115px;
             
         }
     }
+    }
+  
     .contact{
         & input{width: 100%;}
         & textarea{width: 100%;}
     }
     .site-footer .footer-menu ul li{display: block;}
+    .contact-job{    margin-left: 0px;
+        &-form .cnt-btn{margin-left: auto; margin-right: auto;    display: block;}
+    }
 }
 @media (min-width:100px) and (max-width:490px){
     header{
@@ -414,8 +420,9 @@ Responsive
    .fold1 .slides-container, .fold1 .slides-container .slide-con, .fold1 .slides-container .slide-con .slides{min-height: 350px;}
     .fold1 .slides-container .slide-con .slides .slider-text-con{min-height: 450px;}
     .headingwrap h2{    font-size: 2.5rem;}
-    .fold7-left .headingwrap{    margin: 50px 0 20px 0px;}
+      .fold7-left .headingwrap{    margin: 50px 0 20px 0px;}
     .contact{    margin-left: 0px;}
+    .site-footer{text-align: center;}
     
 }
 @media (min-width:1024px) and (max-width:1390px){
